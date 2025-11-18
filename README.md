@@ -96,13 +96,19 @@ Este proyecto simula un entorno real de trabajo QA, abarcando:
 ---
 ### 📸 6. Evidencia del proyecto
 Toda la evidencia técnica está organizada en las carpetas /screenshots, /test-cases y /api-tests.
-A continuación una vista previa de los elementos incluidos:
-Mapa mental de la pantalla “Alquiler”.
-Checklist de “Estado del Pedido”.
-Caso de prueba representativo (Web/Mobile/API).
-Bug report documentado en Jira con evidencia.
-Validación SQL vía SSH (consulta + resultado).
-Pruebas de API en Postman (incluye validación cruzada API ↔ BD).
+A continuación, una vista previa de los elementos incluidos:
+
+Mapa mental de la pantalla “Alquiler”
+
+Checklist de “Estado del Pedido”
+
+Caso de prueba representativo (Web/Mobile/API)
+
+Bug report documentado en Jira
+
+Validación SQL vía SSH (consulta + resultado)
+
+Pruebas de API en Postman (incluye validación cruzada API ↔ BD)
 
 ### 🔗 7. Accesos directos a la evidencia del proyecto
 📁 Screenshots
