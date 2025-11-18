@@ -95,21 +95,33 @@ Este proyecto simula un entorno real de trabajo QA, abarcando:
 
 ---
 
-## 📸 6. Evidencia del proyecto
-*(Agregarás aquí 5–7 capturas máximas):*
+## 📸 6. Evidencia del proyecto  
+Las capturas completas se encuentran organizadas en las carpetas `/screenshots` y `/api-tests`.
 
-- Mapa mental de la pantalla “Alquiler”  
-- Ejemplo de checklist  
-- Ejemplo de caso de prueba  
-- Ejemplo de bug report  
-- Ejemplo de validación SQL  
-- Resumen de API Testing en Postman  
+A continuación, una vista previa de los elementos incluidos:
+- Mapa mental de la pantalla “Alquiler”
+- Checklist de “Estado del Pedido”
+- Caso de prueba representativo
+- Bug report documentado en Jira
+- Validación SQL vía SSH
+- Resumen de pruebas de API en Postman
 
 ---
 
 ## 🔗 7. Enlaces relevantes
-- Capturas de bugs (Jira): *[agrega aquí enlaces o imágenes]*  
-- Documentación de casos de prueba: *[si deseas compartir versión PDF]*  
+- A continuación se incluyen accesos directos a la evidencia principal del proyecto organizada en el repositorio:
+
+📁 Screenshots del proyecto
+Incluye mapa mental, checklist, casos de prueba, bugs reportados, validación SQL y API testing.
+👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/screenshots
+
+📁 Test Cases (PDF / imágenes representativas)
+Resumen de los más de 140 casos de prueba diseñados para Web, Mobile y API.
+👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/test-cases
+
+📁 API Tests (Postman + evidencias)
+Colección Postman exportada, screenshots clave y validación cruzada API ↔ BD.
+👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/api-tests
 
 ---
 
