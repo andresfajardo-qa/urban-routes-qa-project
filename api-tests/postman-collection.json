@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "98d59885-5ba5-47b9-8517-50904116ef46",
+		"name": "Urban Scooter Parte 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47368839",
+		"_collection_link": "https://andresfajardo06-9799082.postman.co/workspace/39d61614-e61c-41db-859d-0c74e978a8cd/collection/47368839-98d59885-5ba5-47b9-8517-50904116ef46?action=share&source=collection_link&creator=47368839"
+	},
+	"item": [
+		{
+			"name": "1) Crear un pedido nuevo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Andrew\",\r\n  \"lastName\": \"Tester\",\r\n  \"address\": \"Calle 67 #8-32\",\r\n  \"metroStation\": 2,\r\n  \"phone\": \"+573001234567\",\r\n  \"rentTime\": 3,\r\n  \"deliveryDate\": \"2025-10-28\",\r\n  \"comment\": \"Pedido de prueba QA\",\r\n  \"color\": [\"BLACK\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/v1/orders",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener el id del pedido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/v1/orders/track?t=56103",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"track"
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "56103"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2) Crear Mensajero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"login\": \"msj.frodo\",\r\n  \"password\": \"1234\",\r\n  \"firstName\": \"Frodo\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/v1/courier",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar ID mensajero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"login\": \"mensajero.frodo\",\r\n  \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/v1/courier/login",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Encontrar ID Real de pedido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/v1/orders/track?t=56103",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"track"
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "56103"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3) Asignar ID 1 Mensajero a Pedido 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/v1/orders/accept/1?courierId=2",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"accept",
+						"1"
+					],
+					"query": [
+						{
+							"key": "courierId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Finalizar Pedido",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Cancelar Pedido",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar mensajero",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"login\": \"msj.frodo\",\r\n  \"password\": \"1234\",\r\n  \"firstName\": \"Frodo\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "{{base_url}}/api/v1/courier/1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
