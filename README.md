@@ -94,33 +94,27 @@ Este proyecto simula un entorno real de trabajo QA, abarcando:
 - **Figma** (revisión de requisitos UI)
 
 ---
+### 📸 6. Evidencia del proyecto
+Toda la evidencia técnica está organizada en las carpetas /screenshots, /test-cases y /api-tests.
+A continuación una vista previa de los elementos incluidos:
+Mapa mental de la pantalla “Alquiler”.
+Checklist de “Estado del Pedido”.
+Caso de prueba representativo (Web/Mobile/API).
+Bug report documentado en Jira con evidencia.
+Validación SQL vía SSH (consulta + resultado).
+Pruebas de API en Postman (incluye validación cruzada API ↔ BD).
 
-## 📸 6. Evidencia del proyecto  
-Las capturas completas se encuentran organizadas en las carpetas `/screenshots` y `/api-tests`.
-
-A continuación, una vista previa de los elementos incluidos:
-- Mapa mental de la pantalla “Alquiler”
-- Checklist de “Estado del Pedido”
-- Caso de prueba representativo
-- Bug report documentado en Jira
-- Validación SQL vía SSH
-- Resumen de pruebas de API en Postman
-
----
-
-## 🔗 7. Enlaces relevantes
-- A continuación se incluyen accesos directos a la evidencia principal del proyecto organizada en el repositorio:
-
-📁 Screenshots del proyecto
-Incluye mapa mental, checklist, casos de prueba, bugs reportados, validación SQL y API testing.
+### 🔗 7. Accesos directos a la evidencia del proyecto
+📁 Screenshots
+Mapa mental, checklist, casos de prueba, bugs reportados, validación SQL y pruebas de API.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/screenshots
 
-📁 Test Cases (PDF / imágenes representativas)
-Resumen de los más de 140 casos de prueba diseñados para Web, Mobile y API.
+📁 Test Cases (PDF / imágenes)
+Resumen de más de 140 casos de prueba diseñados para Web, Mobile y API.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/test-cases
 
 📁 API Tests (Postman + evidencias)
-Colección Postman exportada, screenshots clave y validación cruzada API ↔ BD.
+Colección Postman exportada, screenshots clave y validación API ↔ Base de Datos.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/api-tests
 
 ---
