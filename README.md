@@ -111,16 +111,13 @@ Validación SQL vía SSH (consulta + resultado)
 Pruebas de API en Postman (incluye validación cruzada API ↔ BD)
 
 ### 🔗 7. Accesos directos a la evidencia del proyecto
-📁 Screenshots
-Mapa mental, checklist, casos de prueba, bugs reportados, validación SQL y pruebas de API.
+📁 Screenshots — Mapa mental, checklist, caso de prueba representativo, bug report, validación SQL y pruebas de API.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/screenshots
 
-📁 Test Cases (PDF / imágenes)
-Resumen de más de 140 casos de prueba diseñados para Web, Mobile y API.
+📁 Test Cases (PDF) — Resumen profesional de los 141 casos de prueba diseñados para Web, Mobile y API.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/test-cases
 
-📁 API Tests (Postman + evidencias)
-Colección Postman exportada, screenshots clave y validación API ↔ Base de Datos.
+📁 API Tests (Postman + evidencias) — Colección Postman exportada, screenshots clave y validación API ↔ Base de Datos.
 👉 https://github.com/andresfajardo-qa/urban-routes-qa-project/tree/main/api-tests
 
 ---
